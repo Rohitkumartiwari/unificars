@@ -89,7 +89,7 @@ const AboutUs = () => {
         <div className="hidden md:flex md:w-1/2 lg:w-1/2 xl:w-1/2 items-center justify-center">
           <img
             src={img2}
-            className="h-full md:h-80 lg:h-80 xl:h-24 w-4/5"
+            className="max-w-96"
             alt="Image2"
           />
         </div>
