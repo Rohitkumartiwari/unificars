@@ -3,7 +3,7 @@ import img1 from "../../public/Rectangle 766.png";
 const OnlineSession = () => {
   return (
     <div
-      className="bg-cover text-start h-96 flex items-center text-white "
+      className="bg-cover text-start py-12 flex items-center text-white "
       style={{ backgroundImage: `url(${img1})` }}
     >
       <div className="container mx-auto text-center">
@@ -12,7 +12,7 @@ const OnlineSession = () => {
     <p className="orange text-xs font-medium">
       PSYCHOTHERAPISTS ONLINE
     </p>
-    <h4 className="text-4xl font-medium my-3" style={{ fontFamily: "Castoro" }}>
+    <h4 className="text-4xl font-medium my-3 " style={{ fontFamily: "Castoro" }}>
       Schedule Your Online <br />
       Session Today
     </h4>

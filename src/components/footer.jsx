@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <div>
       <div className="container py-7">
-        <div className=" inset-0 bg-opacity-50 flex items-center justify-center">
-          <div className=" md:w-1/2 lg:w-.5/2 xl:w-.5/2 p-8">
+        <div className="flex flex-col md:flex-row inset-0 bg-opacity-50   justify-between p-8 md:p-0">
+          <div className=" md:w-.5/2 lg:w-.5/2 xl:w-.5/2 ">
             <div className="  text-start">
               <img src={img1} className="  h-10 " alt="Image2" />
               <h6 className="text-xs my-2 text-black">
@@ -22,7 +22,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="   lg:w-1/2 xl:w-1/2 items-center justify-center">
+          <div className="   lg:w-1/2 xl:w-1/2 items-start  justify-between">
             <h4
               className="text-black  font-medium text-2xl my-2 text-start"
               style={{ fontFamily: "Castoro" }}
@@ -35,7 +35,7 @@ const Footer = () => {
             >
               Our Approach
             </h4>
-            <div className="flex justify-around">
+            <div className="flex justify-between">
               <div className="text-start text-sm">
                 <h4 className="  orange mb-2">LINKS</h4>
                 <p className="font-light mb-1 cursor-pointer ">About</p>

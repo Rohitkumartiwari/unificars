@@ -1,5 +1,6 @@
 import img2 from "../../public/image 1.png";
-import { CiCircleChevRight } from "react-icons/ci";
+
+import { FiArrowRightCircle } from "react-icons/fi";
 const Join = () => {
   return (
     <div className="container py-7">
@@ -18,7 +19,7 @@ const Join = () => {
 
             <button className="rounded-full green px-7 py-2 text-sm text-start flex align-middle gap-1">
               Apply Today
-              <CiCircleChevRight size={20} />{" "}
+              <FiArrowRightCircle size={20} />{" "}
             </button>
           </div>
         </div>

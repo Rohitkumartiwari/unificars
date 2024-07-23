@@ -1,13 +1,15 @@
 import img1 from "../../public/aboutUsImage.png";
 import img2 from "../../public/Vector 2.png";
-import { CiCircleChevRight } from "react-icons/ci";
+import img3 from "../../public/↳Color.png"
+
+import { FiArrowRightCircle } from "react-icons/fi";
 const AboutUs = () => {
   return (
     <div
-      className="bg-cover bg-center h-96 relative"
+      className="bg-cover bg-center  relative"
       style={{ backgroundImage: `url(${img1})` }}
     >
-      <div className="absolute inset-0 bg-opacity-50 flex items-center justify-center container">
+      <div className=" inset-0 bg-opacity-50 flex items-center justify-center container py-7">
         <div className="md:w-1/2 lg:w-1/2 xl:w-1/2 p-8">
           <div className=" text-white text-start">
             <h4 className="text-sm text-start">About Us</h4>
@@ -18,7 +20,7 @@ const AboutUs = () => {
               Licensed, Professional <br />
               Therapists That You
               <br />
-              Can Trust
+              Can <span className="font-style: italic">Trust</span>
             </h5>
             <p className="text-xs text-start my-2 text-black">
               At “Unfazed”, we recognize that not all wounds are visible, and we
@@ -32,7 +34,7 @@ const AboutUs = () => {
               <div className="col-md-6">
                 <div className="text-start flex items-center justify-center">
                   <div className="">
-                    <CiCircleChevRight />
+                    <img src={img3} alt="img not found" height={15} width={15}/>
                   </div>
 
                   <div className="text-black text-xs ms-1 font-medium">
@@ -43,7 +45,7 @@ const AboutUs = () => {
               <div className="col-md-6">
                 <div className="text-start flex items-center justify-center">
                   <div className="">
-                    <CiCircleChevRight />
+                  <img src={img3} alt="img not found" height={15} width={15}/>
                   </div>
 
                   <div className="text-black text-xs ms-1 font-medium">
@@ -52,11 +54,11 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
-            <div className="row flex my-4 gap-5">
+            <div className="row flex my-5 gap-5">
               <div className="col-md-6">
                 <div className="text-start flex items-center justify-center">
                   <div className="">
-                    <CiCircleChevRight />
+                  <img src={img3} alt="img not found" height={15} width={15}/>
                   </div>
 
                   <div className="text-black text-xs ms-1 font-medium">
@@ -67,7 +69,7 @@ const AboutUs = () => {
               <div className="col-md-6">
                 <div className="text-start flex items-center justify-center">
                   <div className="">
-                    <CiCircleChevRight />
+                  <img src={img3} alt="img not found" height={15} width={15}/>
                   </div>
 
                   <div className="text-black text-xs ms-1 font-medium">
@@ -79,7 +81,7 @@ const AboutUs = () => {
 
             <button className="rounded-full green px-3 py-2 text-xs text-start flex align-middle gap-1">
               Get To Know Our Therapists
-              <CiCircleChevRight size={20}/>{" "}
+              <FiArrowRightCircle size={20}/>{" "}
             </button>
           </div>
         </div>
