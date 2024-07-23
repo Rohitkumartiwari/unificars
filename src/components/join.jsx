@@ -16,7 +16,7 @@ const Join = () => {
               Together We Can Make Great Progress
             </h4>
 
-            <button className="rounded-full green px-7 py-2 text-xs text-start flex align-middle gap-1">
+            <button className="rounded-full green px-7 py-2 text-sm text-start flex align-middle gap-1">
               Apply Today
               <CiCircleChevRight size={20} />{" "}
             </button>
