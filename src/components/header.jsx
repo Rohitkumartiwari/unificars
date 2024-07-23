@@ -13,14 +13,9 @@ const Header = () => {
 
   return (
     <div>
-      <header className=" ">
-        <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
-          <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
-              <img className="h-8 w-auto" src={img1} alt="img not found" />
-            </a>
-          </div>
+      <header className="flex justify-around ">
+        <nav className="flex items-center justify-between p-6 lg:px-8 gap-x-8" aria-label="Global">
+        <img className="h-8 w-auto" src={img1} alt="img not found" />
           <div className="flex lg:hidden">
             <button
               type="button"
@@ -86,7 +81,7 @@ const Header = () => {
                  Blog
                 </a>
               </div>
-              <div className="mt-6 flex justify-center">
+              <div className="mt-6 d-flex justify-center">
               <button className="border border-solid border-orange-500 bg-orange-500 rounded-md py-2 md:px-4 mt-2 md:mt-0 text-white text-xs flex gap-2 ">
               Find your Therapist <FaArrowRight size={15} />
             </button>

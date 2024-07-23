@@ -17,7 +17,9 @@ const Header = () => {
             Booking Session Now
           </button>
         </div>
-        <div className=" hidden md:flex border border-solid border-gray-200 bg-white/40  rounded-lg overflow-hidden p-4  flex-col md:flex-row md:gap-1 justify-around ">
+        <div className="flex justify-center">
+
+        <div className=" hidden md:flex border border-solid border-gray-200 bg-white/40  rounded-lg overflow-hidden p-4  flex-col md:flex-row md:gap-1 justify-around w-6/6">
           <input
             type="text"
             className="focus:outline-none border-b-2 border-white   md:mr-1 placeholder-white text-white my-2  bg-transparent bg-opacity-30"
@@ -37,6 +39,8 @@ const Header = () => {
             Booking Session
           </button>
         </div>
+        </div>
+       
       </div>
     </div>
   );
