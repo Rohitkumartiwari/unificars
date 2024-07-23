@@ -12,7 +12,7 @@ const Header = () => {
           already ahead of 16 crore <br />
           People
         </h1>
-        <div className="text-start hidden md:flex">
+        <div className="text-start hidden md:flex my-3">
           <button className="border border-solid border-orange-500 bg-orange-500 rounded-lg p-2 md:px-4  my-3">
             Booking Session Now
           </button>
